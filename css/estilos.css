@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: rgb(224, 224, 224);
+    padding: 1em 0;
+}
+
+nav .col{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    color:black;
+    margin-left: 1.5em;
+}
+
+nav ul{
+    text-align: right;
+    line-height: 3em;
+}
+
+.row{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 40px;
+}
+
+.activado{
+    color:orangered;
+}
+
+#seccion1 .row{
+    margin: 3em auto;
+}
+
+#seccion1 .col, #seccion4 .col{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
+.boton{
+    background: linear-gradient(90deg,yellow,orange,orangered);
+    border: none;
+    padding: 1em 2em;
+    color: white;
+    font-weight: bold;
+}
+
+#seccion2 .col{
+    width: 44%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#seccion2 .mas_grande{
+    width: 54%;
+}
+
+img{
+    max-width: 100%;
+}
+
+#franja{
+    background-color: orangered;
+    padding: 3em 0;
+    text-align: center;
+    margin: 3em 0;
+}
+
+#franja .col{
+    width: 24%;
+    color: white;
+    font-size: 3em;
+    display: inline-block;
+}
+
+#seccion3 .col{
+    width: 47%;
+    display: inline-block;
+    margin-top: 2em;
+    vertical-align: top;
+    padding: 1em;
+}
+
+#seccion4{
+    background-color: whitesmoke;
+    padding: 3em 0em;
+}
+
+.grupo-img img{
+    width: 45%;
+    margin: 0.5em;
+}
+
+.img-solita{
+    width: 46%;
+    margin-right: 1em;
+}
+
+.grupo-img{
+    width: 48%;
+}
+
+
+.img-solita, .grupo-img{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#seccion4 .row{
+    margin-bottom: 1em;
+}
